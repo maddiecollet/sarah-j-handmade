@@ -1,6 +1,6 @@
 /* Enter your Styles below! */
 
-body { 
+body {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	 }
@@ -13,44 +13,82 @@ h1 {
 	font-size: 48px;
 }
 
-h2 {
-	font-size: 36px;
+header {
+	padding:5px;
+background-color: #ede9df}
+
+header .logo{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 30vh;
 }
 
-h3 {
-	font-size: 28px;
+footer {
+padding:30px;
+	font-family: jaf-lapture-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	background-color: #ede9df;
+	color: #886223;
 }
-h4 {
-	font-size: 24px;
-}
-
-blockquote {
-	margin: 20px 60px;
-	font-family: Helvetica, sans-serif;
-}
-
-header {margin-bottom: 20px;}
-
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
 	color: red;
 	text-decoration: none;
 	 }
 a:hover { color: black; }
 
 .grid {
+	font-family: titling-gothic-fb-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16pt;
+text-align: center;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
-	width: 60%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 0px;
+	width: 100%;
+	height:80vh;
 	margin: auto;
 }
 
-.grid div {
-	background-color: #ccc;
+.grid .home {
+	color: #d6967a;
+	background-color: #8c4b37;
 	padding: 20px;
+}
+
+.home .one{
+	margin-top:30px;
+}
+.grid .jewelry{
+	color: #326054;
+	background-color: #bdcac1;
+	padding:20px;
+}
+.jewelry .two{
+	margin-top:30px;
+}
+.grid .skincare{
+	color:#8c4b37;
+	background-color: #d6967a;
+	padding:20px;
+}
+.skincare .three{
+	margin-top:30px;
+}
+
+.grid .other{
+	color: #bdcac1;
+	background-color: #326054;
+	padding:20px;
+}
+
+.other .four{
+	margin-top:30px;
 }
 
 @media only screen and (min-width:768px) {
