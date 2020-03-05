@@ -99,32 +99,33 @@ text-align: center;
 }
 
 .homegrid .box1{
+
 	color:#8c4b37;
-	background-color: #8c4b37;
-	padding:20px;
+	background-color: #bdcac1;
+
 }
+
 
 .box2 {
-background-color: #ede9df;
+background-color:  #bdcac1;
 	padding:30px;
 }
-
-.box2 .candle {
-	width:50%;
+.box2 .assets{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
-
-.box2 .elephant {
-	width:50%
-}
-
 
 .box2 .header {
 	font-family: jaf-lapture-display, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 30px;
-	color:#8c4b37;
+	color:#326054;
 }
+
+J
+
+
 @media only screen and (min-width:768px) {
 
 }
