@@ -41,6 +41,9 @@ a {
 	 }
 a:hover { color: black; }
 
+
+/* INDEX */
+
 .grid {
 	font-family: titling-gothic-fb-condensed, sans-serif;
 font-weight: 400;
@@ -62,23 +65,27 @@ text-align: center;
 }
 
 .home .one{
-	margin-top:30px;
+	margin-top:50px;
 }
+
 .grid .jewelry{
 	color: #326054;
 	background-color: #bdcac1;
 	padding:20px;
 }
+
 .jewelry .two{
-	margin-top:30px;
+	margin-top:50px;
 }
+
 .grid .skincare{
 	color:#8c4b37;
 	background-color: #d6967a;
 	padding:20px;
 }
+
 .skincare .three{
-	margin-top:30px;
+	margin-top:50px;
 }
 
 .grid .other{
@@ -88,42 +95,140 @@ text-align: center;
 }
 
 .other .four{
-	margin-top:30px;
+	margin-top:50px;
 }
 
+/* HOME */
 
 .homegrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr
-
 }
 
 .homegrid .box1{
-
 	color:#8c4b37;
 	background-color: #bdcac1;
-
 }
 
-
-.box2 {
-background-color:  #bdcac1;
+.homegrid .box2 {
+background-color:  #8c4b37;
 	padding:30px;
 }
-.box2 .assets{
+
+.homegrid .box2 .assets{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.box2 .header {
+.homegrid .box2 .header {
 	font-family: jaf-lapture-display, serif;
 	font-weight: 400;
+	text-align: center;
+	font-style: normal;
+	font-size: 30px;
+	color:#d6967a;
+}
+
+
+/* JEWELRY */
+
+.jewelrygrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+}
+
+.jewelrygrid .box1{
+	color:#8c4b37;
+	background-color: #bdcac1;
+}
+
+
+.jewelrygrid .box2 {
+background-color:  #bdcac1;
+	padding:30px;
+}
+
+.jewelrygrid .box2 .assets{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jewelrygrid .box2 .header {
+	font-family: jaf-lapture-display, serif;
+	font-weight: 400;
+	text-align: center;
 	font-style: normal;
 	font-size: 30px;
 	color:#326054;
 }
 
-J
+
+/* BEAUTY */
+
+.beautygrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+}
+
+.beautygrid .box1{
+	color:#8c4b37;
+	background-color: #d6967a;
+}
+
+.beautygrid .box2 {
+background-color:  #d6967a;
+	padding:30px;
+}
+
+.beautygrid .box2 .assets{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.beautygrid .box2 .header {
+	font-family: jaf-lapture-display, serif;
+	font-weight: 400;
+	text-align: center;
+	font-style: normal;
+	font-size: 30px;
+	color:#8c4b37;
+}
+
+
+/* ODDS N ENDS */
+
+.oddsgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+
+}
+
+.oddsgrid .box1{
+	color:#bdcac1;
+	background-color: #326054;
+}
+
+.oddsgrid .box2 {
+background-color:#326054;
+	padding:30px;
+}
+
+.oddsgrid .box2 .assets{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.oddsgrid .box2 .header {
+	font-family: jaf-lapture-display, serif;
+	font-weight: 400;
+	text-align: center;
+	font-style: normal;
+	font-size: 30px;
+color:#bdcac1;
+}
+
+
+
 
 
 @media only screen and (min-width:768px) {
