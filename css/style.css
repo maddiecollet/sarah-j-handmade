@@ -13,9 +13,35 @@ h1 {
 	font-size: 48px;
 }
 
+
 header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	padding:5px;
-background-color: #ede9df}
+	background-color: #ede9df}
+
+
+header .fakenav {
+	margin-top: 30px;
+	font-family: jaf-lapture-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: right;
+	background-color: #ede9df;
+	color: #886223;
+}
+
+.fakenav .newin{
+	margin-right: 40px;
+}
+
+.fakenav .current{
+	margin-right: 40px;
+}
+
+.fakenav .meetsarah{
+	margin-right: 40px;
+}
 
 header .logo{
 	margin-top: 10px;
@@ -35,10 +61,26 @@ padding:30px;
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a {
-	color: red;
+.grid .home a{
+	color: #d6967a;
 	text-decoration: none;
 	 }
+
+.grid .jewelry a{
+	color: #326054;
+	text-decoration: none;
+	 }
+
+.grid .skincare a{
+	 	color: #8c4b37;
+	 	text-decoration: none;
+	 	 }
+
+ .grid .other a{
+		color: #bdcac1;
+		text-decoration: none;
+		 	 	 }
+
 a:hover { color: black; }
 
 
