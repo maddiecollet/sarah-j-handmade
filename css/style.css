@@ -18,11 +18,12 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding:5px;
-	background-color: #ede9df}
+	background-color: #ede9df
+}
 
 
 header .fakenav {
-	margin-top: 30px;
+	margin-top: 40px;
 	font-family: jaf-lapture-display, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -58,18 +59,21 @@ padding:30px;
 	background-color: #ede9df;
 	color: #886223;
 }
+
+
 /* ensures that your images stretch the width of their containers */
+
 img { width: 100%; }
 
 .grid .home a{
-	color: #d6967a;
-	text-decoration: none;
-	 }
+		color: #d6967a;
+		text-decoration: none;
+		 }
 
 .grid .jewelry a{
-	color: #326054;
-	text-decoration: none;
-	 }
+		color: #326054;
+		text-decoration: none;
+		 }
 
 .grid .skincare a{
 	 	color: #8c4b37;
@@ -79,7 +83,7 @@ img { width: 100%; }
  .grid .other a{
 		color: #bdcac1;
 		text-decoration: none;
-		 	 	 }
+		 }
 
 a:hover { color: black; }
 
@@ -103,7 +107,7 @@ text-align: center;
 .grid .home {
 	color: #d6967a;
 	background-color: #8c4b37;
-	padding: 20px;
+	padding: 50px;
 }
 
 .home .one{
@@ -113,7 +117,7 @@ text-align: center;
 .grid .jewelry{
 	color: #326054;
 	background-color: #bdcac1;
-	padding:20px;
+	padding:50px;
 }
 
 .jewelry .two{
@@ -123,7 +127,7 @@ text-align: center;
 .grid .skincare{
 	color:#8c4b37;
 	background-color: #d6967a;
-	padding:20px;
+	padding:50px;
 }
 
 .skincare .three{
@@ -133,7 +137,7 @@ text-align: center;
 .grid .other{
 	color: #bdcac1;
 	background-color: #326054;
-	padding:20px;
+	padding:50px;
 }
 
 .other .four{
@@ -171,7 +175,6 @@ background-color:  #8c4b37;
 	color:#d6967a;
 }
 
-
 /* JEWELRY */
 
 .jewelrygrid {
@@ -183,7 +186,6 @@ background-color:  #8c4b37;
 	color:#8c4b37;
 	background-color: #bdcac1;
 }
-
 
 .jewelrygrid .box2 {
 background-color:  #bdcac1;
@@ -203,7 +205,6 @@ background-color:  #bdcac1;
 	font-size: 30px;
 	color:#326054;
 }
-
 
 /* BEAUTY */
 
@@ -236,7 +237,6 @@ background-color:  #d6967a;
 	color:#8c4b37;
 }
 
-
 /* ODDS N ENDS */
 
 .oddsgrid {
@@ -268,9 +268,6 @@ background-color:#326054;
 	font-size: 30px;
 color:#bdcac1;
 }
-
-
-
 
 
 @media only screen and (min-width:768px) {
