@@ -157,8 +157,20 @@ text-align: center;
 }
 
 .homegrid .box2 {
+	border: solid;
+	border-width: 5px;
+	border-color:#d6967a;
 background-color:  #8c4b37;
-	padding:30px;
+
+}
+
+.homegrid .box2 .sale{
+display:block;
+position: relative;
+width:100%;
+margin-top: 50px;
+margin-bottom: 50px;
+
 }
 
 .homegrid .box2 .assets{
@@ -173,6 +185,7 @@ background-color:  #8c4b37;
 	font-style: normal;
 	font-size: 30px;
 	color:#d6967a;
+	margin: 50px;
 }
 
 /* JEWELRY */
@@ -184,17 +197,24 @@ background-color:  #8c4b37;
 
 .jewelrygrid .box1{
 	color:#8c4b37;
-	background-color: #bdcac1;
+	border: solid;
+	border-width: 5px;
+	border-color:#326054;
 }
 
 .jewelrygrid .box2 {
 background-color:  #bdcac1;
-	padding:30px;
+border: solid;
+border-width: 5px;
+border-color:#326054;
+
+padding:30px;
 }
 
 .jewelrygrid .box2 .assets{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	width:100%;
 }
 
 .jewelrygrid .box2 .header {
@@ -216,16 +236,24 @@ background-color:  #bdcac1;
 .beautygrid .box1{
 	color:#8c4b37;
 	background-color: #d6967a;
+	border: solid;
+	border-width: 5px;
+	border-color:#8c4b37;
 }
 
 .beautygrid .box2 {
 background-color:  #d6967a;
+border: solid;
+border-width: 5px;
+border-color:#8c4b37;
+
 	padding:30px;
 }
 
 .beautygrid .box2 .assets{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .beautygrid .box2 .header {
@@ -272,6 +300,12 @@ color:#bdcac1;
 
 @media only screen and (min-width:768px) {
 
+	img:hover {
+  animation: wobble-hor-bottom 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wobble-hor-bottom{0%,100%{transform:translateX(0);transform-origin:50% 50%}15%{transform:translateX(-30px) rotate(-6deg)}30%{transform:translateX(15px) rotate(6deg)}45%{transform:translateX(-15px) rotate(-3.6deg)}60%{transform:translateX(9px) rotate(2.4deg)}75%{transform:translateX(-6px) rotate(-1.2deg)}}
 }
 
 @media only screen and (min-width:1224px) {
